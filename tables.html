@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Tables page </title>
+    <meta name="description" content="This page provide 5 examples of HTML tables  with CSS styling.">
+    <meta name="keywords" content="tables, nested tables, figure, cell padding, cell spacing, alignment, border, background color, colspan, rowspan, text alignment.">
+    <meta name="author" content="Tatiana Vutcariov">
+
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/navigation.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tables page</h1>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="htmlList.html">Lists</a></li>
+                <li><a href="tables.html" class="current">Tables</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <br><br>
+            <table class="table1">
+                <caption class="caption">Table example 1 </caption>
+                <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Values</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>width:</td>
+                    <td>100%;</td>
+
+                </tr>
+                <tr>
+                    <td>padding:</td>
+                    <td>15px;</td>
+                </tr>
+                <tr>
+                    <td>border-spacing:</td>
+                    <td>20px;</td>
+                </tr>
+                <tr>
+                    <td>alignment:</td>
+                    <td>center;</td>
+
+                </tr>
+                <tr>
+                    <td>border:</td>
+                    <td>2px solid black;</td>
+                </tr>
+                <tr>
+                    <td>background-color:</td>
+                    <td>antiquewhite;</td>
+                </tr>
+                </tbody>
+            </table>
+            <br><hr><br>
+            <table class="table2">
+                <caption class="caption">Table example 2</caption>
+                <thead>
+                <tr>
+                    <th colspan="4">Most popular names</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="tr">
+                    <td rowspan="6">Girl Names</td>
+                    <td>Olivia</td>
+                    <td>Emma</td>
+                    <td>Ava</td>
+                </tr>
+                <tr class="tr">
+                    <td>Sophia</td>
+                    <td>Isabella</td>
+                    <td>Charlotte</td>
+                </tr>
+                <tr class="tr">
+                    <td>Amelia</td>
+                    <td>Mia</td>
+                    <td>Harper</td>
+                </tr>
+                <tr class="tr">
+                    <td>Evelyn</td>
+                    <td>Abigail</td>
+                    <td>Emily</td>
+
+                </tr>
+                <tr class="tr">
+                    <td>Ella</td>
+                    <td>Elizabeth</td>
+                    <td>Camila</td>
+                </tr>
+                <tr class="tr">
+                    <td>Luna</td>
+                    <td>Sofia</td>
+                    <td>Avery</td>
+                </tr>
+                </tbody>
+            </table>
+            <br><hr><br>
+            <table>
+                <caption class="caption">Table example 3</caption>
+                <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            <caption>Food</caption>
+                            <thead>
+                            <tr>
+                                <th>Vegetables</th>
+                                <th>Fruits</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Potato</td>
+                                <td>Apple</td>
+                            </tr>
+                            <tr>
+                                <td>Cucumber</td>
+                                <td>Banana</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <caption id="cap_bottom">Drinks</caption>
+                            <thead>
+                            <tr>
+                                <th>Cold</th>
+                                <th>Hot</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Water</td>
+                                <td>Tea</td>
+                            </tr>
+                            <tr>
+                                <td>Coke</td>
+                                <td>Coffee</td>
+                            </tr>
+                            <tr>
+                                <td>Ginger ale</td>
+                                <td>Hot Chocolate</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <br><hr><br>
+            <table id="t4">
+                <caption class="caption">Table example 4</caption>
+                <thead>
+                <tr>
+                    <th>
+                        <figure>
+                            <img src="assets/img/figure.jpg" alt="College Logo">
+                            <figcaption>George Brown College Logo</figcaption>
+                        </figure>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><p class="p">Tatiana Vutcariov</p>
+                        <p class="p">Tatiana.Vutcariov@georgebrown.ca</p></td>
+                </tr>
+                </tbody>
+            </table>
+            <br><hr><br>
+            <table class="table5">
+                <caption class="caption">Table example 5</caption>
+                <thead>
+                <tr>
+                    <th>COMP1223</th>
+                    <th>COMP1223</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td id="td1">COMP1223</td>
+                    <td id="td2">COMP1223</td>
+                </tr>
+                <tr id="">
+                    <td id="td3">COMP1223</td>
+                    <td id="td4">COMP1223</td>
+                </tr>
+                <tr>
+                    <td id="td5">COMP1223</td>
+                    <td id="td6">COMP1223</td>
+                </tr>
+                <tr id="tr1">
+                    <td>COMP1223</td>
+                    <td>COMP1223</td>
+                </tr>
+                <tr id="tr2">
+                    <td>COMP1223</td>
+                    <td>COMP1223</td>
+                </tr>
+                <tr id="tr3">
+                    <td>COMP1223</td>
+                    <td>COMP1223</td>
+                </tr>
+                </tbody>
+            </table>
+            <br><br>
+        </div>
+     </main>
+        <br><hr><br>
+    <footer>
+        <p class="bookmark"><a href="tables.html">Go to top of page.</a></p>
+    <script src=" https://my.gblearn.com/js/loadscript.js"></script>
+    </footer>
+</body>
+</html>
